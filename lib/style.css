@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  a {
+     @apply underline;
+     @apply decoration-dashed;
+  }
+}
