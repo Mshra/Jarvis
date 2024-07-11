@@ -2,7 +2,7 @@
 
 Integrate the power of LLM's in your javascript project.
 
-Install it in node project using
+Install it in your project using
 ```console
 npm i @tarzi/jarvis
 ```
@@ -10,6 +10,8 @@ and import it by using
 ```javascript
 import { SearchBar } from "@tarzi/jarvis"
 ```
+
+![Demo](https://drive.google.com/file/d/1IKeX59lHtYSoQdixQYT61sWvI1-8Dz5h/view?usp=drive_link)
 
 ## Why?
 The Large Language Models like ChatGPT, Gemini, Claude...and many more are one of the best frontiers in the field of Machine Learning and AI. The text generation of a query propt through Natural Language Processing is one of primary features of these LLM's.
