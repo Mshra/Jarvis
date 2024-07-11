@@ -31,8 +31,7 @@ export default function SearchBar() {
           onSubmit={handleSubmit}
           onMouseEnter={() => setShowPromptHistory(true)}
           onBlur={() => setShowPromptHistory(false)}
-          className="flex items-center justify-center h-10 w-full p-2 border-2 border-black rounded-md group z-20 shadow-md shadow-black dark:border-white dark:bg-black dark:shadow-white"
-        >
+          className="flex items-center justify-center h-10 w-full p-2 border-2 border-black rounded-md group z-20 shadow-md bg-white shadow-black dark:border-white dark:bg-black dark:shadow-white">
           <input
             type="text"
             placeholder="Search with the power of AI..."

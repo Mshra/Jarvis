@@ -1,5 +1,10 @@
 import { SetStateAction } from "react"
 
+/**
+ * @summary function that fetches the LLM generated response for the 'searchString'.
+ * @param searchString: prompt entered by the user in search bar.
+ * @param setResponse: sets the response for the searchString to display.
+  */
 async function fetchResponse(searchString: string, setResponse: React.Dispatch<SetStateAction<string>>) {
   const searchStringAsJSON = {
     "prompt": searchString,

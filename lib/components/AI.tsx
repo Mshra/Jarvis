@@ -3,14 +3,23 @@ import { AIProps } from "./types.ts";
 import { marked } from "marked";
 import { fetchResponse } from "./components/handleAI.ts";
 
+/**
+ * Returns a div box that displays the response for the prompt entered by user.
+ */
 export function ResponseBox({ searchString, setSearchString, setShowPromptHistory, setShowAIResponse }: AIProps) {
   const [response, setResponse] = useState<string>("")
 
+  /**
+   * starts the LLM response generation only when searchString is present.
+   */
   if (searchString) {
     fetchResponse(searchString, setResponse)
     setSearchString("")
   }
 
+  /**
+   * Takes the response as markdown and converts it to html and returns it with by wrapping it inside a div.
+   */
   const MarkdownDisplay = ({ response }: { response: string }) => {
     const getMarkdownText = () => {
       const rawMarkup = marked(response);

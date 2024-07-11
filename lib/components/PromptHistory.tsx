@@ -1,6 +1,10 @@
 import { PromptHistoryProps } from './types.ts'
 
+/**
+ * Returns an unordered list of history of past entered prompts.
+ */
 export function PromptHistory({ setPromptString, promptHistory, setPromptHistory }: PromptHistoryProps) {
+
   /**
    * handles the deletion of past entered prompts.
    * @param {string} index - the index of the prompt in promptHistory array which is to be deleted
@@ -13,8 +17,7 @@ export function PromptHistory({ setPromptString, promptHistory, setPromptHistory
   }
 
   /**
-   * @summary maps every prompts in the promptHistory array and wraps it with <li> html element that is to be returned for display inside <ul>
-   * 
+   * Maps every prompts in the promptHistory array and wraps it with <li> html element that is to be returned for display inside <ul>
    */
   const mapPromptHistory = promptHistory.map((promptString, index) => {
     return (
