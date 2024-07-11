@@ -7,7 +7,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, "lib/index.ts"),
-            name: "react-jp-ui",
+            formats: ['es', 'umd'],
+            name: "Jarvis",
             fileName: function (format) { return "index.".concat(format, ".js"); },
         },
         rollupOptions: {
