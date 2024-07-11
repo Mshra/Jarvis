@@ -11,11 +11,6 @@ and import it by using
 import { SearchBar } from "@tarzi/jarvis"
 ```
 
-## Demo
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2R0dWZ6bTluaHRvNzY4YTcwank1MGd5ZmQ1b29xNG1vMWt1OG9jdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHbAqyIGyc96OLUcd8/giphy.gif" alt="Demo" />
-</div>
-
 ## Why?
 The Large Language Models like ChatGPT, Gemini, Claude...and many more are one of the best frontiers in the field of Machine Learning and AI. The text generation of a query propt through Natural Language Processing is one of primary features of these LLM's.
 
@@ -25,22 +20,8 @@ The Large Language Models like ChatGPT, Gemini, Claude...and many more are one o
 
 These questions are answered by Jarvis
 
-## TODO
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2R0dWZ6bTluaHRvNzY4YTcwank1MGd5ZmQ1b29xNG1vMWt1OG9jdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHbAqyIGyc96OLUcd8/giphy.gif" alt="Demo" />
+</div>
 
-- [x] sending prompt data as a json
-
-- [x] handle the AI promise by loading and error if some error occurs.
-
-- [x] break down code into modules to make it more readable.
-
-- [x] add documentation
-
-- [ ] enable cycling through prompt history.
-
-- [ ] line by line text generation(using websockets)
-
-- [ ]  move the backend to cloudflare worker
-
-- [x]  add finishing touches and publish the library on npm
-
-- [x]  add the page for demonstration the use of library and how it can be used on a react site, describe the project.
+Not satisfied yet and want to get your hands dirty? [Click here.](https://jarvis-demo.vercel.app/)
