@@ -24,4 +24,16 @@ These questions are answered by Jarvis
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2R0dWZ6bTluaHRvNzY4YTcwank1MGd5ZmQ1b29xNG1vMWt1OG9jdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHbAqyIGyc96OLUcd8/giphy.gif" alt="Demo" />
 </div>
 
-Not satisfied yet and want to get your hands dirty? [Click here.](https://jarvis-demo.vercel.app/)
+Not satisfied yet and want to get your hands dirty? [Click here](https://jarvis-demo.vercel.app/)
+
+## Theme
+
+<div align="center">
+<p align="center">Light Theme<p>
+<a href="https://ibb.co/n0tpwff"><img src="https://i.ibb.co/JdgZc22/light-mode.png" alt="light-mode" border="0"></a>
+</div>
+
+<div align="center">
+<p align="center">Dark Theme<p>
+<a href="https://ibb.co/GCh4jQH"><img src="https://i.ibb.co/MPXxLkB/dark-mode.png" alt="dark-mode" border="0"></a>
+</div>
