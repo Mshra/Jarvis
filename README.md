@@ -11,7 +11,7 @@ and import it by using
 import { SearchBar } from "@tarzi/jarvis"
 ```
 
-![Demo](https://drive.google.com/file/d/1IKeX59lHtYSoQdixQYT61sWvI1-8Dz5h/view?usp=drive_link)
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2R0dWZ6bTluaHRvNzY4YTcwank1MGd5ZmQ1b29xNG1vMWt1OG9jdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHbAqyIGyc96OLUcd8/giphy.gif)
 
 ## Why?
 The Large Language Models like ChatGPT, Gemini, Claude...and many more are one of the best frontiers in the field of Machine Learning and AI. The text generation of a query propt through Natural Language Processing is one of primary features of these LLM's.
