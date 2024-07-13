@@ -20,7 +20,7 @@ You are ready to go!
 </div>
 
 <div align="center">
-<p align="center">Dark Mode<>
+<p align="center">Dark Mode<p>
 <a href="https://ibb.co/GCh4jQH"><img src="https://i.ibb.co/MPXxLkB/dark-mode.png" alt="dark-mode" border="0"></a>
 </div>
 
